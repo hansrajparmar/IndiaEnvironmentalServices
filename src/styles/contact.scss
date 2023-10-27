@@ -1,0 +1,70 @@
+@import "colors";
+
+.contactpage{
+    height: 100vh;
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    >main{
+        background-color: white;
+        height: 35rem;
+        width: 70%;
+        padding: 3rem;
+        border-radius: 50px 50px 50px 50px;
+
+        >h1{
+            text-align: center;
+        }
+
+        >form{
+            // background-color: green;    
+            margin: 3rem 5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            >div{
+                // background-color: violet;
+                height: 3rem;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                width: 70%;
+                margin: 0.5rem;
+
+                >label{
+                    // background-color: aqua;
+                    font: 500 1.2rem $text1;
+                    width: 20%;
+                    margin: 0 1rem;
+                }
+
+                >input{
+                    align-self: stretch;
+                    width: 75%;
+                    padding: 1rem;
+                    border-radius: 5px;
+                    border-radius: 1px solid rgba(123,123,123,0.6);
+                    outline: none;
+                }
+            }
+
+            >button{
+                margin: 3rem 0;
+                padding: 0.7rem;
+                border: none;
+                border-radius: 5px;
+                background-color: orange;
+                color: white;
+                width: 200px;
+                font: 500 1rem $text1;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
